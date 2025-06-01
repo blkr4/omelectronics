@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* Adjust this to match your header height */
 }
 
 body {
@@ -292,6 +293,7 @@ form button {
     margin-bottom: 20px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     font-size: 1rem;
+    justify-items: start;
 }
 
 .info-box p {
@@ -333,7 +335,7 @@ form button {
 /* About Us Page*/
 #about {
     background-color: #cbd5d5;
-
+    border-top: 4px solid #006699;
 }
 
 #about p {
